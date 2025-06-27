@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(188, 198, 199); 
+    /* background: url(../images/index.jpg)no-repeat center top; */
+    /* background-image: url(../static/images/img.jpg);
+    background-size: no-repeat; 
+    background-size: cover;  */
+    /* background-image: "{{ url_for('static', filename = 'img/images.jpg') }}"; */
+    
+}
+
+h1,h3{
+  font-family: 'Roboto', sans-serif;
+  color:rgb(27, 27, 27);
+}
+h2{
+  color: rgb(36, 34, 34);
+  padding-left: 72px;
+  font-size: 32px;
+  font-weight: bold;
+
+}
+h3{
+  text-align: center; 
+  text-transform: capitalize
+}
+h4{
+  text-align: center;
+  padding-top: 32px;
+  color: rgb(6, 39, 28);
+  font-weight: 900;
+  letter-spacing: 0.8px;
+  
+}
+.headername{
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 0.2px;
+}
+
+.radio-inline{
+  margin-left: 85px;
+  font-size: 18px;
+  font-weight: bold;
+}
+#first{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+h6{
+  text-align: center;
+  font-size: 15px;
+ color: #f90832;
+}
+#reg{
+  
+    text-align: center;
+    font-size: 33px;
+}
+/* p{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 29px;
+} */
+h6{
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  padding-top: 29px;
+}
+.login-box{
+  background:rgb(255, 254, 254);
+  background-color: rgb(240, 228, 228);
+  padding: 5px 5px;
+  border-radius: 20px;
+  height: 1185px;;
+  width: 489px;  
+}
+.login-box1{
+  background:rgb(255, 254, 254);
+  background-color: rgb(240, 228, 228);
+  padding: 20px 48px;
+  border-radius: 20px;
+  width: 295px;
+}
+
+  .frm-ctrl{
+    width: 100%;
+    height: 36px;
+    color: gray;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+.btn-login{
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  background: #065E99;
+  padding: 3px 20px;
+  margin-left: 150px;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border:none;
+  border-radius: 8px;
+  transition: all 0.3s ease-in-out;
+  width:40%
+}
+.btn-login:hover{
+  background: #8E2B6C;
+}
+#logout{
+  color: rgb(183, 13, 13);font-size: 33px;
+}
+#logout:hover{
+  background: #8E2B6C;
+  color:aqua
+  
+}
+#algo{
+  margin-left: 110px;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+#Accuracy{
+  margin-left: 106px;
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #1181e2;
+}
+#score{
+  color: #8E2B6C;
+  font-weight: 900;
+}
